@@ -1,0 +1,8 @@
+tensor1:
+  image: tkcdocker/tensorflow2017-02
+  container_name: tensor1
+  ports:
+    - 8888:8888
+#  volumes:
+#    - ./Code/:/notebooks
+  privileged: true
