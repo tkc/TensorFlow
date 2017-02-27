@@ -3,6 +3,6 @@ tensor1:
   container_name: tensor1
   ports:
     - 8888:8888
-#  volumes:
-#    - ./Code/:/notebooks
+  volumes:
+    - ./Code/:/notebooks
   privileged: true

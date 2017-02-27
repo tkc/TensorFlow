@@ -5,9 +5,9 @@ export DOCKER_HOST="tcp://192.168.99.100:2376"
 export DOCKER_MACHINE_NAME="default"
 
 # docker-machine
-docker-machine regenerate-certs default
-docker-machine start default
-eval "$(docker-machine env default)"
+#docker-machine regenerate-certs default
+#docker-machine start default
+#eval "$(docker-machine env default)"
 
 # docker-compose
 docker rm -f $(docker ps -a -q)
